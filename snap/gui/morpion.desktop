@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Morpion
+Icon=${SNAP}/meta/gui/icon.png
+Categories=Game
+Exec=morpion
+Terminal=false

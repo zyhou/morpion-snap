@@ -1,0 +1,22 @@
+{
+  "name": "morpion",
+  "version": "0.0.1",
+  "description": "Jeu du Morpion",
+  "main": "main.js",
+  "author": "zyhou",
+  "scripts": {
+    "start": "electron .",
+    "build": "build --linux snap"
+  },
+  "devDependencies": {
+    "electron": "4.0.7",
+    "electron-builder": "20.38.5"
+  },
+  "build": {
+    "linux": {
+      "target": [
+        "dir"
+      ]
+    }
+  }
+}
