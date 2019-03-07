@@ -1,6 +1,6 @@
 {
   "name": "morpion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jeu du Morpion",
   "main": "main.js",
   "author": "zyhou",
@@ -13,7 +13,11 @@
     "electron-builder": "20.38.5"
   },
   "build": {
+    "directories": {
+      "buildResources": "assets/"
+    },
     "linux": {
+      "category": "Game",
       "target": [
         "dir"
       ]
