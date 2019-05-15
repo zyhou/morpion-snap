@@ -2,7 +2,7 @@
   "name": "morpion",
   "version": "0.0.2",
   "description": "Jeu du Morpion",
-  "main": "main.js",
+  "main": "index.js",
   "author": "zyhou",
   "scripts": {
     "start": "electron .",
